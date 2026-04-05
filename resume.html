@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ashish Vishwakarma Resume</title>
+  <style>
+    @media print {
+
+      body {
+        margin: 20px;
+      }
+
+      /* Prevent breaking inside important blocks */
+      /*.section,*/
+      .job,
+      ul,
+      li {
+        page-break-inside: avoid;
+        break-inside: avoid;
+        font-size: 13px;
+      }
+
+      /* Keep headings with content */
+      h2 {
+        page-break-after: avoid;
+      }
+
+      /* Optional: prevent section from splitting awkwardly */
+      .section {
+        page-break-before: auto;
+      }
+
+      @page {
+        size: A4;
+        margin: 15mm;
+      }
+    }
+
+    body {
+      font-family: Times New Roman, serif;
+      margin: 20px;
+      color: #000;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .contact {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-top: 25px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid black;
+      padding-bottom: 5px;
+      font-size: 18px;
+    }
+
+    ul {
+      margin-top: 10px;
+    }
+
+    .job {
+      margin-top: 10px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .right {
+      float: right;
+    }
+
+    .education-section {
+      margin-top: 20px;
+    }
+
+    .section-title {
+      border-bottom: 2px solid #000;
+      padding-bottom: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .edu-item {
+      margin-top: 15px;
+      margin-left: 25px;
+    }
+
+    .edu-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+    }
+
+    .edu-university {
+      font-weight: bold;
+    }
+
+    .edu-date {
+      font-weight: bold;
+    }
+
+    .edu-degree {
+      font-style: italic;
+    }
+
+    .edu-location {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="formatting">
+    <h1>Ashish Vishwakarma</h1>
+    <div class="contact">
+      Jagriti Vihar, Meerut, Uttar Pradesh, 240004
+      <p>
+        📞 <a href="tel:9794152050">9794152050</a> |
+        ✉️ <a href="mailto:ashish.vishwakarma09611@gmail.com">ashish.vishwakarma09611@gmail.com</a> |
+        🔗 <a href="https://linkedin.com/in/ashish09611" target="_blank">
+          linkedin.com/in/ashish09611
+        </a>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Career Objective</h2>
+      <ul>
+        <li>
+          2.5 years of Salesforce experience as a Administrator and Developer. specializing in Apex development
+          and process automation. Enhanced customer engagement through innovative Lightning components and optimized
+          operations, significantly reducing manual data entry. Adept at maintaining data integrity while fostering
+          collaboration across teams, ensuring high-quality deliverables.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <ul>
+        <li>Good understanding of Agile, SDLC, and STLC.</li>
+        <li>Ability to meet deadlines and work under pressure.</li>
+        <li>Flexible and Versatile to adapt to any new environment and work on any project</li>
+        <li>Good knowledge of Automation tools and technologies, Salesforce, SOQL, Lightning web components.</li>
+        <li>Configured security and sharing settings, including profiles, permission sets, role hierarchy defaults
+          (OWD),
+          and sharing rules, to maintain data integrity and access control.</li>
+        <li>Worked on the Agentforce development project.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Work Experience</h2>
+
+      <div class="job">
+        <span class="job-title">360 Degree Cloud Technologies</span>
+        <span class="right">March 2024 – Current | Noida</span>
+        <br><i>Salesforce Developer</i>
+        <ul>
+          <li>Managed and maintained Salesforce platform ensuring high availability and performance.</li>
+          <li>Implemented REST API integrations with third-party systems.</li>
+          <li>Configured Security and Sharing Settings including Profiles, Permission Sets, Roles, OWD, and Sharing
+            Rules.
+          </li>
+          <li>Developed Apex Triggers for complex business logic.</li>
+          <li>Developed Lightning Web Components for enhanced user interface.</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+
+      <div class="job">
+        <span class="job-title">Canopy Real Estate</span> (Automation, LWC, Integration)
+        <ul>
+          <li>Created Custom Objects, Relationships, Fields, Validation Rules, and Page Layouts.</li>
+          <li>Created custom user interfaces using Lightning Web Components.</li>
+          <li>Created visualforce pages for custom pdf.</li>
+          <li>Developed Apex Classes, Controllers, and Triggers for application functionality.</li>
+          <li>Involved in daily standup meetings, scrum calls. This resulted to bring good solution to the business
+            requirements and to meet the deadlines.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <span class="job-title">Schwing Stetter</span> (Automation, LWC, Integration)
+        <ul>
+          <li>Created Custom Objects, Relationships, Fields, Validation Rules, and Page Layouts.</li>
+          <li>Created custom user interfaces using Lightning Web Components.</li>
+          <li>Worked on Profiles, Permission Sets, Roles, and Sharing Rules.</li>
+          <li>Developed Apex Classes, Controllers, and Triggers for application functionality.</li>
+          <li>Implemented efficient data retrieval and processing techniques to minimize SOQL queries, DML operations,
+            and
+            Other resource-consuming activities.</li>
+          <li>Involved in resolving multiple bugs by debugging the logs.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Salesforce Administrator</li>
+        <li>Apex Trigger</li>
+        <li>Apex Development</li>
+        <li>Lightning Web Components</li>
+        <li>SOQL</li>
+        <li>Agentforce Agent Development</li>
+        <li>Flow Builder</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Certifications</h2>
+
+      <ul>
+        <li>Salesforce Certified Agentforce Specialist</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <div class="edu-row">
+          <div class="edu-university">Guru Gobind Singh Indraprastha University (GGSIPU)</div>
+          <div class="edu-date">Jul 2022 – Jun 2024</div>
+        </div>
+        <div class="edu-row">
+          <div class="edu-degree">Master of Computer Application</div>
+          <div class="edu-location">Delhi, New Delhi</div>
+        </div>
+      </div>
+
+      <!-- BCA -->
+      <div class="edu-item">
+        <div class="edu-row">
+          <div class="edu-university">University of Delhi</div>
+          <div class="edu-date">Jul 2018 – Jun 2024</div>
+        </div>
+        <div class="edu-row">
+          <div class="edu-degree">Bachelor of Science (Hons.) Mathematics</div>
+          <div class="edu-location">Delhi, New Delhi</div>
+        </div>
+      </div>
+
+    </div>
+
+</body>
+
+</html>
